@@ -5,9 +5,7 @@ from discord.utils import get
 import asyncio
 
 from discord.ext import commands
-from dotenv import load_dotenv
 
-load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 #define a ssubclass and work with the subclass?
 
