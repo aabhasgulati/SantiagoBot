@@ -27,6 +27,9 @@ async def on_ready():
         allguild_status[guild.id] = temp
     print(allguild_status)
 
+@bot.command(name='santiago')
+async def introduce(ctx):
+    await ctx.send('I am a bot that helps you organise discussions, hence my creator named me after Amy Santiago - Brooklyn 99, who is the type of person who is going to get turned on by this idea. Also my creator has a massive crush on her! Now that I think about it, that must be the main reason lol')
 
 @bot.command(name='thread')
 async def create_thread(ctx):
